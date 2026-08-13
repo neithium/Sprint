@@ -16,9 +16,12 @@ bool isPrime(int n) {
     if (n <= 1) return false;
     if (n == 2 || n == 3) return true;
     if (n % 2 == 0 || n % 3 == 0) return false;
-    // Loop up to the square root of n
+    // Loop increments i by 6 each time:
     for (int i = 5; i * i <= n; i += 6) {
-        if (n % i == 0 || n % (i + 2) == 0) return false;
+    // i checks (6k - 1), e.g., 5, 11, 17, 23, 29...
+    // (i + 2) checks (6k + 1), e.g., 7, 13, 19, 25, 31...
+    if (n % i == 0 || n % (i + 2) == 0) 
+        return false; 
     }
     return true;
 }
