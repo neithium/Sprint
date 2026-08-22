@@ -1875,5 +1875,4 @@ KEY INVARIANT
    ↓
 COMPLEXITY
 ```
-
-For an interview, being able to explain **why the pattern works** is more valuable than reproducing a 40-line solution from memory.
+ 
