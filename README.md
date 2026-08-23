@@ -1,7 +1,6 @@
 # CSE Fundamentals — Interview Quick Revision
 
-Concise revision notes for **4th-year CSE students** preparing for software engineering technical interviews. Includes **trainer guides**, **model answers**, **Python solutions**, and **mock interview packs**.
-
+ 
 > Designed for last-minute revision — not a textbook. Pseudocode in DSA files; runnable Python in [solutions-python.md](md/solutions-python.md).
 
 ---
